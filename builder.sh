@@ -1,13 +1,15 @@
 source $stdenv/setup
 
 buildPhase() {
-  echo "... this is my custom build phase ..."
-  gcc foo.c -o foo
+  npm run build
 }
 
 installPhase() {
-  mkdir -p $out/bin
-  cp foo $out/bin
+  echo "No Install Phase..."
+}
+
+runPhase() {
+  npm run start
 }
 
 genericBuild
