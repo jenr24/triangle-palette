@@ -3,8 +3,10 @@
 * Choose the color of each of the three corners of a triangle rendered with WebGPU in this React/Snowpack app
 * Be sure to run this app only on browsers with enabled WebGPU (--enable-unsafe-webgpu for chrome and additionally --enable-features=Vulkan,UseSkiaRenderer for chrome on linux)
 
-![App Screenshot](https://github.com/jenr24/triangle-palette/blob/main/AppScreenshot.png)
-
+<p align="center">
+  ![App Screenshot](https://github.com/jenr24/triangle-palette/blob/main/AppScreenshot.png)
+</p>
+  
 ## NPM Scripts
 
 ### npm start
