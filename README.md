@@ -24,3 +24,12 @@ Your app is ready to be deployed!
 
 Launches the application test runner.
 Run with the `--watch` flag (`npm test -- --watch`) to run in interactive watch mode.
+
+## Running the App
+
+* This app only requires the nix package manager (https://nixos.org/download.html#download-nix) and git to get started; however, the experimental `flake` feature needs to be enabled
+
+* Clone this repository to a location of your choosing
+* Enter the repository and enter the development environment with `nix develop`
+* Start the app in development mode with `nix run` or `npm run start`
+* Build the app for production with `nix build` or `npm run build`
