@@ -4,7 +4,7 @@
 * Be sure to run this app only on browsers with enabled WebGPU (--enable-unsafe-webgpu for chrome and additionally --enable-features=Vulkan,UseSkiaRenderer for chrome on linux)
 
 <p align="center">
-  ![App Screenshot](https://github.com/jenr24/triangle-palette/blob/main/AppScreenshot.png)
+  <img src="https://github.com/jenr24/triangle-palette/blob/main/AppScreenshot.png" alt="App Screenshot" />
 </p>
   
 ## NPM Scripts
